@@ -15,6 +15,6 @@ public class TestService {
 
   public void run(){
     log.info("Run with filePath:{}, folderPath:{}",filePath, folderPath);
-    Utils.isConvertedAllDocxToPDF(folderPath, filePath+ File.separator +"convert.ps1",1l);
+    Utils.isConvertedAllDocxToPDF(folderPath, folderPath+ File.separator +"convert.ps1",1l);
   }
 }
